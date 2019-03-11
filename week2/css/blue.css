@@ -1,0 +1,84 @@
+body{
+    background-image:url("");
+    background-size:cover;
+}
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: grey;
+}
+td{
+    text-align: center;
+}
+table, td, th
+{
+    border:1px solid #1c5788;
+}
+
+th
+{
+    background-color: #1c5788;
+    color:white;
+}
+.dire{
+    text-align: center;
+    display: flex;
+    position: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color: cadetblue;
+    height:60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+
+}
+h2{
+    color:navy;
+}
+
+.container {
+    width: 650px;
+    margin: 100px auto;
+
+}
+.search {
+    position:center;
+    width: 500px;
+    height: 60px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+}
+.button {
+    background-color: cadetblue;
+    border-radius: 18px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+}
+h1{
+    text-align: center;
+    font:bold 55px/100% "华文隶书", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    color: #fff;
+    color: navy;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 40px cornflowerblue,
+    0 0 70px dodgerblue;
+}
+
+.logon{
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    color: #00b0ff;
+}

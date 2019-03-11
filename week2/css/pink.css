@@ -1,0 +1,80 @@
+.table {
+    display: table;
+    border-collapse: separate;
+    border-spacing: 2px;
+    border-color: #805774;
+}
+td{
+    text-align: center;
+}
+table, td, th
+{
+    border:1px solid #e70b6b;
+}
+
+th
+{
+    background-color: #e70b6b;
+    color:white;
+}
+.dire{
+    text-align: center;
+    display: flex;
+    position: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    background-color: #ff89f2;
+    height:60px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+
+}
+h2{
+    color: #770069;
+}
+
+.container {
+    width: 650px;
+    margin: 100px auto;
+
+}
+.search {
+    position:center;
+    width: 500px;
+    height: 60px;
+    border-radius: 18px;
+    outline: none;
+    border: 1px solid #ccc;
+    padding-left: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+}
+.button {
+    background-color: deeppink;
+    border-radius: 18px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1), 0 3px 10px 0 rgba(0,0,0,0.10);
+}
+h1{
+    text-align: center;
+    font:bold 55px/100% "华文隶书", "Lucida Grande", "Lucida Sans", Helvetica, Arial, Sans;
+    color: #fff;
+    color: deeppink;
+    text-shadow: 0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 15px #fff,
+    0 0 40px palevioletred,
+    0 0 70px purple;
+}
+
+.logon{
+    text-align: right;
+    font-weight: 400;
+    font-size: 16px;
+    color: hotpink;
+}
