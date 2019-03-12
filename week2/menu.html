@@ -3,8 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <link href="css/blue.css" rel='stylesheet' type='text/css' />
+    <link href="css/pink.css" rel='stylesheet' type='text/css' />
+    <script type="text/javascript" src="JS/index.js"></script>
 </head>
+<script>
+    function Cr(fcolor) {
+        document.getElementsByClassName("black1").style.color=fcolor;
+    }
+</script>
 <body>
 <h1>E-book</h1>
 <div class="dire">
@@ -20,11 +26,11 @@
         <th style="width: 60%" >书名</th>
         <th style="width: 40%">剩余数量</th>
         </tr>
-        <tr><td><a href="products_page.html">深入理解计算机系统</a></td><td>5</td></tr>
-        <tr><td>数据库系统概念</td><td>4</td></tr>
-        <tr><td>计算机系统设计原理</td><td>5</td></tr>
-        <tr><td>软件工程导论统</td><td>6</td></tr>
-        <tr><td>C++程序设计</td><td>3</td></tr>
+        <tr><td><div class="black1" onclick="Cr('#ff0000')">深入理解计算机系统</div></td>><td><a href="products_page.html">5</a></td></tr>
+        <tr><td><div class="black1" onclick="Cr('#ff0000')">数据库系统概念</div></td><td>4</td></tr>
+        <tr><td><div class="black1" onclick="Cr('#ff0000')">计算机系统设计原理</div></td><td>5</td></tr>
+        <tr><td><div class="black1" onclick="Cr('#ff0000')">软件工程导论统</div></td><td>6</td></tr>
+        <tr><td><div class="black1" onclick="Cr('#ff0000')">C++程序设计</div></td><td>3</td></tr>
         </tbody>
     </table>
 </div>
